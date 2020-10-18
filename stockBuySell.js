@@ -2,11 +2,11 @@
   
     const getMaxProfit = (stockPrices) => {
         
-        if(stockPrices.length == 0){
+        if(stockPrices.length === 0){
             return -1;
         }
         
-        if(stockPrices.length == 1){
+        if(stockPrices.length === 1){
             return 0;
         }
         
